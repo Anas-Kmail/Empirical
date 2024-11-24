@@ -5,6 +5,8 @@
  */
 package empirical;
 
+import java.util.Scanner;
+
 
 public class Empirical {
     
@@ -35,8 +37,10 @@ public class Empirical {
     public static void main(String[] args) {
         
         long startTime = System.nanoTime();
-        int x=0;
-        System.out.println(fact2(x));
+        Scanner scanner = new Scanner(System.in);
+        ///int x=scanner.nextInt();
+        int x=5;
+        System.out.println("4");
         
                 long endTime = System.nanoTime();
                 long elapsedTime = endTime - startTime;
